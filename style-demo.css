@@ -1,0 +1,442 @@
+html,body{
+    width:auto;
+    height: auto;
+    padding:0;
+}
+
+.sidenav {
+    width:300px;
+    height:100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #033363;
+    overflow-x: hidden;
+  }
+
+  .sidenav a, .dropdown-btn {
+    padding-left: 15px;
+    margin-top:0;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    display: inline;
+    border: none;
+    background:#003467;
+    width: 100%;
+    align-items: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .user{
+    margin-left:14px;
+    margin-top:0;
+    opacity: 1;
+    display:block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:1px solid #FFFFFF;
+    object-fit: cover;
+     
+    background-position: center center;
+    /* as mentioned by Vad: */
+    background-size: cover; 
+  }
+  .icon{
+    padding-left:25px;
+    margin-bottom:15px;
+    display: inline;
+    width:50px;
+    height: auto;
+  }
+  hr{
+    border-top: 1px solid #011F4B;; 
+  }
+
+  .card {
+    margin-left: 14px;
+    margin-right: 100px;
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card {
+    background-color: white;
+    transition: 0.3s;
+    width: 202px;
+    height:191px;
+    border-radius: 5px;
+  }
+  
+  img {
+    border-radius: 5px;
+  }
+  
+  .content{
+    padding: 2px 16px;
+  }
+
+  /*----------------Miidle-----------------*/
+  .middle-container{
+    background-color:white;
+    padding-left:35px;
+  }
+  .statistics{
+    background-color: #FAFAFC;
+    margin-left:35px;
+    width: 858px;
+    height:107px;
+    opacity:1;
+    border:1px solid #707070;
+  }
+  .statistics-inner li{
+  display: inline-block;
+  
+}
+.inner-content{
+  text-align: center;
+}
+
+.second-info-bar{
+    background-color: #FAFAFC;
+    margin-left:35px;
+    margin-top: 32px;
+    width: 858px;
+    height:65px;
+    opacity:1;
+    border:1px solid #707070;
+}
+
+.second-inner-content li{
+    display: inline;
+  }
+  
+.btn-tasks{
+    margin-left: 23px;
+    margin-top:20px ;
+    margin-bottom: 18px;
+    width: 80px;
+    height: 32px;
+    font-size: 14px;
+    background-color: #0B5AA5;
+    color: white;
+    text-align: left;
+    border-radius: 3px;
+    border: none;
+
+  
+  }
+  
+.task-badge{
+    display: inline;
+    margin-right: 9px;
+    margin-top:6px ;
+    margin-bottom: 9px;
+    margin-left:5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding:5px 10px;
+    color:  #0B5AA5;
+    font-size:14px;
+    font-weight:bold;
+    background-color: white;
+  
+  }
+  
+.mls-btn{
+     margin-right: 17px;
+     margin-bottom: 17px;
+     margin-top:9px;
+     width:178px; 
+     height:39px; 
+     opacity:1;
+     border:none;
+     background-color: #0B5AA5;
+     border-radius: 3px;
+     font-size: 14px;
+     color: white;
+     text-align: right;
+    float: right;
+  }
+  
+.mls{
+    width: 16px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 17px;
+    margin-bottom: 11px;
+    opacity: 1;
+  
+  }
+  
+.required-badge{
+    display: inline;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    color: white;
+    background-color: #D70909;
+    padding: 5px 10px;
+  }
+  
+
+  .user-accordion{
+    margin-top:16px; 
+    margin-bottom:16px; 
+    margin-left:16px;
+    float: left;
+  }
+  
+  .p-span{
+    display: inline;
+    margin-left: 0px;
+    margin-top: 5px;
+    width: 89px;
+    height: 12px;
+    opacity:  0.5019607843137255;
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .btn-doller1{
+    display: inline;
+    height: 18px;
+    width: 38px;
+    margin-top: 16px;
+    background-color: #FAFAFC;
+    opacity: 1;
+    border:1px solid #707070;
+    color: #0B5AA5;
+    border-radius:50%;
+    padding: 5px 10px;
+  }
+  
+  .btn-doller2{
+    display: inline;
+    height: 18px;
+    width: 38px;
+    margin-top: 16px;
+    background-color: #0B5AA5;
+    opacity: 1;
+    color: white;
+    border-radius:50%;
+    padding: 5px 10px;
+  }
+
+
+
+  .file-upload{
+    background-color: #FAFAFC;
+    margin-left: 35px;
+    height: 520px;
+    width: 858px;
+    opacity: 1;
+    border:1px solid #707070;
+  }
+  .test-tasks{
+    margin-top: 30px;
+    margin-left: 34px;
+    font-size: 14px;
+    opacity: 0.8;
+    text-align: left;
+  }
+  
+  .p2{
+    margin-top:13px;
+  }
+  .drag-area{
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 0;
+    width: 828px;
+    height: 215px; 
+    background-color: #FFFFFF; 
+    border: 1px dashed #707070; 
+    opacity: 1;
+    padding:0;
+    text-align: center;
+  
+  }
+  
+  .complete-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    display: inline;
+    width:168px; 
+    height:39px; 
+    opacity:1;
+    border:none;
+    background-color: #21BA45;
+    border-radius: 3px;
+    font-size: 14px;
+    color: white;
+    text-align: right;
+    float: right;
+  
+  }
+  
+ .badge1{
+    display: inline;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    color: white;
+    background-color: #0B5AA5;
+    padding: 5px 10px;
+  }
+
+  .badge2{
+    display: inline;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    color: white;
+    background-color: #CFAB00;
+    padding: 5px 10px;
+  }
+
+  .badge3{
+    display: inline;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    color: white;
+    background-color: #E27700;
+    padding: 5px 10px;
+  }
+
+
+  .badge4{
+    display: inline;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    color: white;
+    background-color: #48AC00;
+    padding: 5px 10px;
+  }
+
+  .badge5{
+    display: inline;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    color: white;
+    background-color: #666666;
+    padding: 5px 10px;
+  }
+
+  /*-------------CALENDAR----------------------*/
+  
+  
+ul {list-style-type: none;}
+
+
+.month {
+  width: 100%;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.month ul {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: black;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #FFFFFF;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #0C5AA5;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #FFFFFF;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #000000;
+  
+}
+
+.days li .active {
+  padding: 5px;
+  background: #0053AB;
+  color: white !important;
+  border-radius:2px;
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+
+.event-div{
+    width:300px;
+    height:82px;
+    margin-top: 350px;
+    border:1px solid #707070;
+    background-color: #FFFFFF;
+
+}
+
